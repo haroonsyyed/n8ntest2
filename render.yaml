@@ -11,9 +11,9 @@ services:
   - type: web
     plan: free
     # This is the runtime for services that pull a prebuilt Docker image
-    runtime: image
+    runtime: docker
     # You can give the service any name
-    name: docker
+    name: n8n-service
 
     # All environment variables defined below are required!
     #
